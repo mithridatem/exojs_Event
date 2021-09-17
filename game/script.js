@@ -28,8 +28,10 @@ function lancer(){
     if(random == 0){
         //si random = 0 -> on passe random à 1.
         random += 1;
+        //changement de style css
         score.style.color = 'red';
         score.style.fontWeight = 'bold';
+        //affichage du score du dés
         score.innerHTML = "Score du dés : " + random;
         //affichage du nombre de lancé de dés
         nbrLancer.innerHTML = "Lancé de dés numéro : " + cptNbrLance;
@@ -38,8 +40,10 @@ function lancer(){
     }
     //Test si le random est supérieur ou égal à 3
     else if(random == 6){
+        //changement de style css
         score.style.color = 'yellowgreen';
         score.style.fontWeight = 'bold';
+        //affichage du score du dés
         score.innerHTML = "Score du dés : " + random;
         //affichage du nombre de lancé de dés
         nbrLancer.innerHTML = "Lancé de dés numéro : " + cptNbrLance;
@@ -50,8 +54,10 @@ function lancer(){
     }
     //Test si le random est supérieur ou égal à 3
     else if(random >= 3){
+        //changement de style css
         score.style.color = 'green';
         score.style.fontWeight = 'bold';
+        //affichage du score du dés
         score.innerHTML = "score du dés : " + random;
         //affichage du nombre de lancé de dés
         nbrLancer.innerHTML = "Lancé de dés numéro : " + cptNbrLance;
@@ -62,8 +68,10 @@ function lancer(){
     }
     //Test si inférieur à 2
     else if(random <= 2){
+        //changement de style css
         score.style.color = 'red';
         score.style.fontWeight = 'bold';
+        //affichage du score du dés
         score.innerHTML = "score du dés : " + random;
         //affichage du nombre de lancé de dés
         nbrLancer.innerHTML = "Lancé de dés numéro : " + cptNbrLance;
